@@ -1,0 +1,13 @@
+.about__section>h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.87;
+}
+.about__top {
+    display: flex;
+    align-items: center;
+}

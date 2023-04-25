@@ -1,0 +1,28 @@
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background: #232536;
+    color: #fff;
+}
+.nav__container>h2 {
+    margin-left: 75px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 75px;
+}
+
+.cta__link  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cta__link>a {
+    color: #FFD3AF;
+}

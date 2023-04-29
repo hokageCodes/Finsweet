@@ -2,6 +2,7 @@ import './about.css'
 import Middle1 from '../../assets/middle_1.png'
 import Middle2 from '../../assets/middle_2.png'
 import Middle3 from '../../assets/middle_3.png'
+import Vertical from '../../assets/vertical.png'
 import Group from '../../assets/Group.png'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 
@@ -20,30 +21,33 @@ function About() {
             </div>
             <div className="about__middle">
                 <img src={Middle1} alt='1' />
-                <img src={Middle2} alt='' />
-                <img src={Middle3} alt='' />
+                <img src={Middle2} alt='2' />
+                <div className="third__image">
+                    <img src={Middle3} alt='' />
+                    <img src={Vertical} alt='' />
+                </div>
             </div>
             <div className="about__bottom">
                 <div className="bottom-left">
                     <div className="group">
-                        <p>1560+</p>
+                        <p className='numbers'>1560+</p>
                         <img src={Group} alt='' />
-                        <p>Projet Delivered</p>
+                        <p className='text'>Projet Delivered</p>
                     </div>
                     <div className="group">
-                        <p>1560+</p>
+                        <p className='numbers'>1560+</p>
                         <img src={Group} alt='' />
-                        <p>Projet Delivered</p>
+                        <p className='text'>professional</p>
                     </div>
                     <div className="group">
-                        <p>1560+</p>
+                        <p className='numbers'>1560+</p>
                         <img src={Group} alt='' />
-                        <p>Projet Delivered</p>
+                        <p className='text'>Happy Client</p>
                     </div>
                     <div className="group">
-                        <p>1560+</p>
+                        <p className='numbers'>1560+</p>
                         <img src={Group} alt='' />
-                        <p>Projet Delivered</p>
+                        <p className='text'>Experience</p>
                     </div>
                 </div>
                 <div className="bottom-right">

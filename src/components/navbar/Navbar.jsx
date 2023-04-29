@@ -4,7 +4,7 @@ import './navbar.css'
 function Navbar() {
     return (
         <nav className='nav__container'>
-            <h2>Party Deal</h2>
+            <h2>Finsweet</h2>
             <div>
                 <ul className="nav__links">
                     <li>Home</li>

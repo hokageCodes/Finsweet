@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 500px;
-    margin: 50px 150px 0 150px;
+    margin-top: 50px;
 }
 
 .about__top__left>h4 {
@@ -19,6 +19,7 @@
 .about__top {
     display: flex;
     align-items: center;
+    
 }
 .about__top__left {
     max-width: 640px;
@@ -60,9 +61,35 @@
     margin-top: -450px;
     display: flex;
     align-items: center;
-    gap: 600px;
+    gap: 630px;
 }
 .bottom-left {
     display: flex;
     gap: 50px;
+}
+.numbers {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #232536;
+}
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bottom-right>a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444CFC;
+    opacity: 0.87;
 }

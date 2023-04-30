@@ -4,6 +4,7 @@ import Avatar3 from '../../assets/avatar.png'
 // import Verical from '../../assets/vertical.png'
 // import Logo from '../../assets/Logo.png'
 import './testimonial.css'
+import CardCarousel from '../carousel/Carousel'
 function Testimonial() {
     return (
         <section className="testimonial__section">
@@ -19,12 +20,9 @@ function Testimonial() {
                 </div>
                 <p className='review'>30+ Customer Reviews</p>
             </div>
-            {/* <div className="testimonial__right">
-                <div className="right__card">
-                    <img className='vertical' src={Verical} alt="" />
-                    <h3>Finsweet has been a wonderful partner to work with. I have been a customer now for the past few months now and I have had nothing but positive experiences!</h3>
-                </div>
-            </div> */}
+            <div className="testimonial__right">
+                <CardCarousel />
+            </div>
         </section>
     )
 }

@@ -1,10 +1,36 @@
+.card-carousel {
+    display: flex;
+    align-items: center;
+    width: 607px;
+    height: 340px;
+}
+.card-carousel>img {
+    height: 310px;
+}
+
+.card-carousel__content {
+    display: flex;
+    flex-direction: column;
+    width: 607px;
+    background: #FFFFFF;
+}
+
 .card-carousel__title {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    margin-left: 40px;
     max-width: 498px;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     color: #232536;
     opacity: 0.87;
+}
+
+.card-carousel__avatar {
+    display: flex;
+    gap: 16px;
+    margin-left: 40px;
 }
 .card-carousel__name {
     font-weight: 600;
@@ -20,3 +46,7 @@
     color: #232536;
     opacity: 0.6;
 }
+.card-carousel__company {
+    margin-left: 400px;
+}
+

@@ -1,105 +1,60 @@
 .testimonial__section {
-  display: flex;
+    display: flex;
+    align-items: center;
+    background: #F9F9FF;
 }
 
-.card-carousel {
+.testimonial__left {
+    margin-top: 96px;
+    margin-left: 120px;
+}
+.testimonial__left>h2 {
+    max-width: 492px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+}
+.testimonial__left>h4 {
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #232536;
+}
+.testimonial__left>p {
+    max-width: 492px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    opacity: 0.87;
+}
+.testimonial__left-avatar {
     display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 1rem;
-  }
-  
-  .card-carousel__line {
-    width: 1px;
-    height: 100%;
-    background-color: #d2d2d2;
-  }
-  
-  .card-carousel__content {
-    flex: 1;
-    margin-left: 1rem;
-  }
-  
-  .card-carousel__title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .card-carousel__info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .card-carousel__avatar {
-    display: flex;
-    align-items: center;
-    margin-right: 1rem;
-  }
-  
-  .card-carousel__avatar img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 1rem;
-  }
-  
-  .card-carousel__name {
-    font-weight: bold;
-    margin-right: 0.5rem;
-  }
-  
-  .card-carousel__position {
-    font-size: 0.8rem;
-    color: #666;
-  }
-  
-  .card-carousel__company img {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .card-carousel__content-text {
-    font-size: 1.2rem;
-  }
-  
-  .card-carousel__dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-  
-  .card-carousel__dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #d2d2d2;
-    margin: 0 0.5rem;
-    cursor: pointer;
-  }
-  
-  .card-carousel__dot.active {
-    background-color: #333;
-  }
-  
-  .card-carousel__buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-  
-  .card-carousel__button {
-    font-size: 1.2rem;
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    margin: 0 0.5rem;
-    cursor: pointer;
-  }
-  
-  .card-carousel__button:hover {
-    background-color: #555;
-  }
-  
+    gap: 12px;
+}
+.testimonial__left-avatar>img {
+    margin-bottom: 14px;
+    object-fit: cover;
+    width: 48px;
+    height: 48px;
+}
+.testimonial__left>.review {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.blue__box {
+    margin-bottom: 16px;
+    width: 16px;
+    height: 16px;
+    background: #666DFF;
+}
+
+.testimonial__right {
+    
+}

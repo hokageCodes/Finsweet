@@ -1,0 +1,36 @@
+.process__top {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    gap: 330px;
+}
+
+.top__left {
+    max-width: 733px;
+}
+.top__left>h4 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.87;
+}
+.top__left>h2 {
+    margin-bottom: 24px;
+    max-width: 681px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+}
+.top__left>p {
+    max-width: 642px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    opacity: 0.87;
+}

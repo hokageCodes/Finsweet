@@ -1,7 +1,22 @@
 .card-carousel__title {
+    max-width: 498px;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     color: #232536;
     opacity: 0.87;
+}
+.card-carousel__name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    opacity: 0.87;
+}
+.card-carousel__position {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #232536;
+    opacity: 0.6;
 }

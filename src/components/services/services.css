@@ -1,6 +1,6 @@
 .services__container {
     width: 100%;
-    height: 90vh;
+    height: 110vh;
     background: #FFE6D2;
     margin-top: 34px;
     padding-top: 96px;
@@ -29,6 +29,11 @@
     color: #232536;
 }
 
+.bottom {
+    margin-top: 80px;
+    display: flex;
+    gap: 32px;
+}
 .services__link {
     display: flex;
     align-items: center;
@@ -36,8 +41,10 @@
     height: 50px;
     width: 150px;
     background: #444CFC;
+    color: #FFFFFF;
 }
 .services__link>a {
+    color: #FFFFFF;
     margin-left: 15px;
 }
 
@@ -55,6 +62,7 @@
     height: 47px;
 }
 .card__arrangement>h4 {
+    margin-left: 48px;
     margin-bottom: 8px;
     font-weight: 600;
     font-size: 16px;
@@ -62,10 +70,22 @@
     color: #000000;
 }
 .card__arrangement>p {
+    margin-left: 48px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     max-width: 326px;
     color: #5D5F6D;
     margin-bottom: 24px;
+}
+
+.services__bottom__link {
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.services__bottom__link>a {
+    color: #444CFC;
+    opacity: 0.87;
 }

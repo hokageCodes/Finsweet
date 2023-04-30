@@ -1,5 +1,7 @@
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
+import Support from '../../assets/support.svg'
 import Settings from '../../assets/settings.svg'
+import Code from '../../assets/development.svg'
 import './services.css'
 
 function Services() {
@@ -15,10 +17,28 @@ function Services() {
             </div>
             <div className="bottom">
                 <div className="card__arrangement">
-                    <img src={Settings} alt="4" />
+                    <img src={Support} alt="4" />
                     <h4>Technical support</h4>
                     <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
-                    <div className="bottom-right">
+                    <div className="services__bottom__link">
+                        <a href="/">Read more</a>
+                        <HiOutlineArrowNarrowRight />
+                    </div>
+                </div>
+                <div className="card__arrangement">
+                    <img src={Settings} alt="4" />
+                    <h4>Testing Management</h4>
+                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
+                    <div className="services__bottom__link">
+                        <a href="/">Read more</a>
+                        <HiOutlineArrowNarrowRight />
+                    </div>
+                </div>
+                <div className="card__arrangement">
+                    <img src={Code} alt="4" />
+                    <h4>Development</h4>
+                    <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
+                    <div className="services__bottom__link">
                         <a href="/">Read more</a>
                         <HiOutlineArrowNarrowRight />
                     </div>

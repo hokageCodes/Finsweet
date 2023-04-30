@@ -1,0 +1,11 @@
+.newsletter__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 96px;
+    margin-left: 150px;
+    width: 80%;
+    height: 333px;
+    background: #666DFF;
+}

@@ -1,0 +1,14 @@
+.blog__container {
+    background: #ECF8F9;
+    height: 581px;
+}
+
+.blog__top {
+
+}
+.blog__top>h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+}

@@ -1,8 +1,8 @@
 import Avatar1 from '../../assets/avatar1.png'
 import Avatar2 from '../../assets/avatar2.png'
 import Avatar3 from '../../assets/avatar.png'
-import Verical from '../../assets/vertical.png'
-import Logo from '../../assets/Logo.png'
+// import Verical from '../../assets/vertical.png'
+// import Logo from '../../assets/Logo.png'
 import './testimonial.css'
 function Testimonial() {
     return (
@@ -19,12 +19,12 @@ function Testimonial() {
                 </div>
                 <p className='review'>30+ Customer Reviews</p>
             </div>
-            <div className="testimonial__right">
+            {/* <div className="testimonial__right">
                 <div className="right__card">
                     <img className='vertical' src={Verical} alt="" />
                     <h3>Finsweet has been a wonderful partner to work with. I have been a customer now for the past few months now and I have had nothing but positive experiences!</h3>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

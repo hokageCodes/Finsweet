@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/about/About'
+import CardCarousel from './components/carousel/Carousel'
 import Expertise from './components/expertise/Expertise'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Process />
       <Testimonial />
+      <CardCarousel />
     </>
   )
 }

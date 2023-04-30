@@ -5,6 +5,7 @@ import Develop from '../../assets/develop.svg'
 import Test from '../../assets/testing.svg'
 import Deploy from '../../assets/deployment.svg'
 import Maintain from '../../assets/maintain.svg'
+import Full from '../../assets/fullHori.png'
 import './process.css'
 
 function Process() {
@@ -31,6 +32,7 @@ function Process() {
                                 <h4>Discover</h4>
                                 <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                             </div>
+                            {/* <img className='full' src={Full} alt="" /> */}
                         </div>
                     </div>
                     <div className="process__card">

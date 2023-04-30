@@ -5,7 +5,7 @@
     height: 340px;
 }
 .card-carousel>img {
-    height: 310px;
+    height: 290px;
 }
 
 .card-carousel__content {
@@ -49,4 +49,28 @@
 .card-carousel__company {
     margin-left: 400px;
 }
+.card-carousel__company>img {
+    display: none;
+}
+
+.card-carousel__dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .card-carousel__dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: #BFBFBF;
+    cursor: pointer;
+  }
+  
+  .card-carousel__dot.active {
+    background-color: #232536;
+  }
+  
 

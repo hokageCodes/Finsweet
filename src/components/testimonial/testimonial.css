@@ -1,5 +1,6 @@
 .testimonial__section {
     display: flex;
+    gap: 180px;
     align-items: center;
     background: #F9F9FF;
 }
@@ -53,8 +54,4 @@
     width: 16px;
     height: 16px;
     background: #666DFF;
-}
-
-.testimonial__right {
-    
 }

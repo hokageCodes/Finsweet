@@ -21,73 +21,69 @@ function Process() {
                 </div>
             </div>
             <div className="process__bottom">
-                <div className="process__card">
-                    <p>01</p>
-                    <div className="card__details">
-                        <img src={Discover} alt="" />
-                        <div className="card__text">
-                            <h4>Discover</h4>
-                            <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                <div className="process__one">
+
+                    <div className="process__card">
+                        <p>01</p>
+                        <div className="card__details">
+                            <img src={Discover} alt="" />
+                            <div className="card__text">
+                                <h4>Discover</h4>
+                                <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="process__card">
+                        <p>02</p>
+                        <div className="card__details">
+                            <img src={Discover} alt="" />
+                            <div className="card__text">
+                                <h4>Discover</h4>
+                                <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="process__card">
+                        <p>03</p>
+                        <div className="card__details">
+                            <img src={Discover} alt="" />
+                            <div className="card__text">
+                                <h4>Discover</h4>
+                                <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="process__card">
-                    <p>01</p>
-                    <div className="card__details">
-                        <img src={Discover} alt="" />
-                        <div className="card__text">
-                            <h4>Discover</h4>
-                            <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                <div className="process__two">
+
+                    <div className="process__card">
+                        <p>04</p>
+                        <div className="card__details">
+                            <img src={Discover} alt="" />
+                            <div className="card__text">
+                                <h4>Discover</h4>
+                                <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="process__card">
-                    <p>02</p>
-                    <div className="card__details">
-                        <img src={Discover} alt="" />
-                        <div className="card__text">
-                            <h4>Discover</h4>
-                            <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                    <div className="process__card">
+                        <p>05</p>
+                        <div className="card__details">
+                            <img src={Discover} alt="" />
+                            <div className="card__text">
+                                <h4>Discover</h4>
+                                <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="process__card">
-                    <p>03</p>
-                    <div className="card__details">
-                        <img src={Discover} alt="" />
-                        <div className="card__text">
-                            <h4>Discover</h4>
-                            <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="process__card">
-                    <p>04</p>
-                    <div className="card__details">
-                        <img src={Discover} alt="" />
-                        <div className="card__text">
-                            <h4>Discover</h4>
-                            <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="process__card">
-                    <p>05</p>
-                    <div className="card__details">
-                        <img src={Discover} alt="" />
-                        <div className="card__text">
-                            <h4>Discover</h4>
-                            <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="process__card">
-                    <p>06</p>
-                    <div className="card__details">
-                        <img src={Discover} alt="" />
-                        <div className="card__text">
-                            <h4>Discover</h4>
-                            <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                    <div className="process__card">
+                        <p>06</p>
+                        <div className="card__details">
+                            <img src={Discover} alt="" />
+                            <div className="card__text">
+                                <h4>Discover</h4>
+                                <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

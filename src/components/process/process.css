@@ -34,3 +34,19 @@
     color: #232536;
     opacity: 0.87;
 }
+
+.process__one, .process__two {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.process__card {
+    width: 395px;
+    height: 164px;
+    border: 1px solid rgba(35, 37, 54, 0.17);
+}
+.process__card>p {
+    text-align: right;
+}

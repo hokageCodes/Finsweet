@@ -26,7 +26,7 @@ function Blog() {
                 </div>
                 <div className="blog__card">
                     <div className="blog__card__left">
-                        <img src={Blog1} alt="" />
+                        <img src={Blog2} alt="" />
                     </div>
                     <div className="blog__card__right">
                         <p>Jan 19, 2021</p>

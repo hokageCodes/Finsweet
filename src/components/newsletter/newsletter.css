@@ -1,0 +1,48 @@
+.newsletter__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 96px;
+    margin-left: 150px;
+    width: 80%;
+    height: 333px;
+    background: #666DFF;
+}
+
+.newsletter__left>h4 {
+    margin-left: 120px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.newsletter__left>h2 {
+    margin-left: 120px;
+    max-width: 488px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+input {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    width: 454px;
+    height: 64px;
+}
+input::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 29px;
+    color: #232536;
+    opacity: 0.4;
+}
+.newsletter__section>img {
+    height: 333px;
+}

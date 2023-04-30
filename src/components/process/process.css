@@ -48,6 +48,8 @@
     border: 1px solid rgba(35, 37, 54, 0.17);
 }
 .process__card>p {
+    margin-right: 20px;
+    margin-top: 10px;
     text-align: right;
     font-weight: 600;
     font-size: 24px;
@@ -81,4 +83,10 @@
 }
 .full {
     margin-top: 40px;
+}
+.extension {
+    margin-top: -20px;
+}
+.other__extension {
+    margin-top: -45px;
 }

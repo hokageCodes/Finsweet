@@ -23,7 +23,6 @@ function Process() {
             </div>
             <div className="process__bottom">
                 <div className="process__one">
-
                     <div className="process__card">
                         <p>01</p>
                         <div className="card__details">
@@ -32,15 +31,17 @@ function Process() {
                                 <h4>Discover</h4>
                                 <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                             </div>
-                            {/* <img className='full' src={Full} alt="" /> */}
+                        </div>
+                        <div className="extension">
+                            <img className='full' src={Full} alt="" />
                         </div>
                     </div>
                     <div className="process__card">
                         <p>02</p>
                         <div className="card__details">
-                            <img src={Discover} alt="" />
+                            <img src={Design} alt="" />
                             <div className="card__text">
-                                <h4>Discover</h4>
+                                <h4>Design</h4>
                                 <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                             </div>
                         </div>
@@ -48,9 +49,9 @@ function Process() {
                     <div className="process__card">
                         <p>03</p>
                         <div className="card__details">
-                            <img src={Discover} alt="" />
+                            <img src={Develop} alt="" />
                             <div className="card__text">
-                                <h4>Discover</h4>
+                                <h4>Development</h4>
                                 <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                             </div>
                         </div>
@@ -61,9 +62,9 @@ function Process() {
                     <div className="process__card">
                         <p>04</p>
                         <div className="card__details">
-                            <img src={Discover} alt="" />
+                            <img src={Test} alt="" />
                             <div className="card__text">
-                                <h4>Discover</h4>
+                                <h4>Testing</h4>
                                 <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                             </div>
                         </div>
@@ -71,19 +72,23 @@ function Process() {
                     <div className="process__card">
                         <p>05</p>
                         <div className="card__details">
-                            <img src={Discover} alt="" />
+                            <img src={Deploy} alt="" />
                             <div className="card__text">
-                                <h4>Discover</h4>
+                                <h4>Deployment</h4>
                                 <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                             </div>
                         </div>
                     </div>
+                    
                     <div className="process__card">
+                        <div className="other__extension">
+                            <img className='full' src={Full} alt="" />
+                        </div>
                         <p>06</p>
                         <div className="card__details">
-                            <img src={Discover} alt="" />
+                            <img src={Maintain} alt="" />
                             <div className="card__text">
-                                <h4>Discover</h4>
+                                <h4>Maintenance</h4>
                                 <p>We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
                             </div>
                         </div>

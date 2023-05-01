@@ -35,17 +35,17 @@ function About() {
                         <p className='text'>Projet Delivered</p>
                     </div>
                     <div className="group">
-                        <p className='numbers'>1560+</p>
+                        <p className='numbers'>100+</p>
                         <img src={Group} alt='' />
                         <p className='text'>professional</p>
                     </div>
                     <div className="group">
-                        <p className='numbers'>1560+</p>
+                        <p className='numbers'>950+</p>
                         <img src={Group} alt='' />
                         <p className='text'>Happy Client</p>
                     </div>
                     <div className="group">
-                        <p className='numbers'>1560+</p>
+                        <p className='numbers'>10 yrs</p>
                         <img src={Group} alt='' />
                         <p className='text'>Experience</p>
                     </div>

@@ -1,27 +1,27 @@
-import About from "../components/about/About"
-import Blog from "../components/blog&news/Blog"
-import Expertise from "../components/expertise/Expertise"
-import FooterTop from "../components/footer/FooterTop"
-import Hero from "../components/hero/Hero"
 import Navbar from "../components/navbar/Navbar"
-import Newsletter from "../components/newsletter/Newsletter"
-import Process from "../components/process/Process"
-import Services from "../components/services/Services"
-import Testimonial from "../components/testimonial/Testimonial"
+import Hero from "../components/hero/Hero"
+// import About from "../components/about/About"
+// import Blog from "../components/blog&news/Blog"
+// import Expertise from "../components/expertise/Expertise"
+// import FooterTop from "../components/footer/FooterTop"
+// import Newsletter from "../components/newsletter/Newsletter"
+// import Process from "../components/process/Process"
+// import Services from "../components/services/Services"
+// import Testimonial from "../components/testimonial/Testimonial"
 
 function LandingPage() {
     return (
         <div>
             <Navbar />
             <Hero />
-            <About />
+            {/* <About />
             <Expertise />
             <Services />
             <Process />
             <Testimonial />
             <Blog />
             <Newsletter />
-            <FooterTop />
+            <FooterTop /> */}
         </div>
     )
 }

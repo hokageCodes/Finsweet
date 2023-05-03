@@ -26,7 +26,7 @@ function Navbar() {
           <li>Contact Us</li>
           <div className='cta__link'>
             <a href='/'>Clone project</a>
-            <HiOutlineArrowNarrowRight />
+            <HiOutlineArrowNarrowRight className='arrow' />
           </div>
         </ul>
         <div className='nav__hamburger' onClick={handleToggle}>

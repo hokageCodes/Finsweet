@@ -24,7 +24,7 @@ function About() {
                 <img src={Middle2} alt='2' />
                 <div className="third__image">
                     <img src={Middle3} alt='' />
-                    <img src={Vertical} alt='' />
+                    <img className='vertical' src={Vertical} alt='' />
                 </div>
             </div>
             <div className="about__bottom">

@@ -72,3 +72,41 @@
     bottom: 5px;
     width: 515px;
 }
+
+.horizontal {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .expertise__container {
+        flex-direction: column;
+    }
+    .expertise__left {
+        margin-top: 250px;
+        margin-left: -60px;
+    }
+    .expertise__right {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .expertise__container {
+        flex-direction: column;
+    }
+    .expertise__left {
+        margin-left: 18px;
+    }
+    .expertise__left>h4 {
+        margin-top: 100px;
+    }
+    .expertise__left>h2  {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .card__group {
+        width: 350px;
+    }
+}

@@ -7,6 +7,8 @@
 }
 
 .nav__logo {
+  margin: 0 100px;
+  margin-right: -170px;
   font-size: 28px;
   font-weight: bold;
   color: #FFFFFF;
@@ -43,9 +45,6 @@
   color: #FFD3AF;
 }
 
-.arrow {
-  color: #fff;
-}
 
 .nav__hamburger,
 .nav__close {
@@ -57,6 +56,8 @@
   .nav__container {
     display: flex;
     align-items: center;
+    z-index: 1000;
+    margin-left: -100px;
   }
   .nav__links {
     display: none;
@@ -70,16 +71,17 @@
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
     transform: translateX(100%);
   }
-
+  
   .nav__links li {
     margin: 10px 0;
     font-size: 16px;
+    margin-left: 100px;
   }
-
+  
   .nav__container {
     position: relative;
   }
-
+  
   .nav__hamburger {
     display: block;
     position: absolute;
@@ -88,7 +90,7 @@
     font-size: 24px;
     cursor: pointer;
   }
-
+  
   .nav__close {
     display: none;
     position: absolute;
@@ -97,17 +99,21 @@
     font-size: 24px;
     cursor: pointer;
   }
-
+  
   .show {
     display: flex;
     transform: translateX(0);
   }
-
+  
   .show .nav__hamburger {
     display: none;
   }
-
+  
   .show .nav__close {
     display: block;
+  }
+  .cta__link {
+    margin-top: 10px;
+    margin-left: 120px;
   }
 }

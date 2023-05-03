@@ -17,7 +17,7 @@ function Navbar() {
     <nav className='nav__container'>
       <h2 className='nav__logo'>Finsweet</h2>
       <div>
-        <ul className={`nav__links ${showLinks ? 'show' : ''}`}>
+        <ul onClick={handleLinkClick} className={`nav__links ${showLinks ? 'show' : ''}`}>
           <li>Home</li>
           <li>Service</li>
           <li>Company</li>

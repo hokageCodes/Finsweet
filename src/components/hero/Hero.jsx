@@ -10,7 +10,7 @@ function Hero() {
                 <p>The entire Finsweet team knows what is good with Webflow and you can too with 1 week and a good attitude.</p>
                 <div className="cta__hero__link">
                     <a href="/">Clone project</a>
-                    <HiOutlineArrowNarrowRight />
+                    <HiOutlineArrowNarrowRight className='arrow' />
                 </div>
             </div>
             <div className="right__hero__content">

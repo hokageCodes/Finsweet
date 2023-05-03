@@ -1,8 +1,8 @@
 import Navbar from "../components/navbar/Navbar"
 import Hero from "../components/hero/Hero"
-// import About from "../components/about/About"
+import About from "../components/about/About"
+import Expertise from "../components/expertise/Expertise"
 // import Blog from "../components/blog&news/Blog"
-// import Expertise from "../components/expertise/Expertise"
 // import FooterTop from "../components/footer/FooterTop"
 // import Newsletter from "../components/newsletter/Newsletter"
 // import Process from "../components/process/Process"
@@ -14,9 +14,9 @@ function LandingPage() {
         <div>
             <Navbar />
             <Hero />
-            {/* <About />
+            <About />
             <Expertise />
-            <Services />
+            {/* <Services />
             <Process />
             <Testimonial />
             <Blog />

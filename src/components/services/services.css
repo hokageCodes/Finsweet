@@ -1,6 +1,6 @@
 .services__container {
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     background: #FFE6D2;
     margin-top: 34px;
     padding-top: 96px;
@@ -89,3 +89,159 @@
     color: #444CFC;
     opacity: 0.87;
 }
+
+@media screen and (max-width: 768px) {
+    .services__container {
+      padding-left: 48px;
+      padding-right: 48px;
+      margin-top: 200px;
+    }
+  
+    .top > h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+  
+    .bottom {
+      flex-direction: column;
+      gap: 48px;
+    }
+  
+    .card__arrangement {
+      width: 100%;
+      height: auto;
+      padding: 32px 24px;
+    }
+  
+    .card__arrangement > img {
+      margin-left: 0;
+      margin-right: 24px;
+      margin-bottom: 12px;
+    }
+  
+    .card__arrangement > h4 {
+      margin-left: 0;
+      margin-bottom: 4px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  
+    .card__arrangement > p {
+      margin-left: 0;
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 24px;
+      max-width: 100%;
+    }
+  
+    .services__link {
+      width: 120px;
+      height: 40px;
+      font-size: 12px;
+    }
+    .services__bottom__link {
+        margin-left: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .services__container {
+        height: 200vh;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  
+    .top > h2 {
+      font-size: 24px;
+      line-height: 34px;
+    }
+  
+    .bottom {
+      gap: 32px;
+    }
+  
+    .card__arrangement {
+      width: 100%;
+      height: auto;
+      padding: 24px;
+    }
+  
+    .card__arrangement > h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .card__arrangement > p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+    .services__link {
+      height: 40px;
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    .services__container {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  
+    .top > h2 {
+      font-size: 22px;
+      line-height: 32px;
+    }
+  
+    .bottom {
+      gap: 24px;
+    }
+  
+    .card__arrangement {
+        margin-top: -50px;
+      padding: 20px;
+    }
+  
+    .card__arrangement > h4 {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  
+    .card__arrangement > p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .services__container {
+        margin-top: 300px;
+      height: auto;
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+  
+    .top > h2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  
+    .bottom {
+      gap: 16px;
+    }
+  
+    .card__arrangement {
+      padding: 16px;
+    }
+  
+    .card__arrangement > h4 {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  
+    .card__arrangement > p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+  }  

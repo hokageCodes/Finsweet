@@ -90,3 +90,123 @@
 .other__extension {
     margin-top: -45px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .process__top {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 64px;
+    align-items: center;
+  }
+  .top__left {
+    text-align: center;
+    max-width: 100%;
+  }
+  .top__right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .process__one, .process__two {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .process__card {
+    width: 100%;
+    height: auto;
+  }
+  .extension, .other__extension {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .top__left>h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .top__left>p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .top__left>h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+    .process__top {
+      flex-direction: column;
+      gap: 48px;
+    }
+    .top__left>h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .process__top {
+      gap: 0;
+    }
+    .top__left>h2 {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .top__left>p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .process__one, .process__two {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .process__card {
+      width: 100%;
+    }
+    .extension, .other__extension {
+      display: none;
+    }
+    .card__details {
+      display: flex;
+      gap: 24px;
+    }
+    .card__details>img {
+      max-width: 40px;
+      max-height: 40px;
+    }
+    .card__text {
+      flex-grow: 1;
+    }
+    .card__text>h4 {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    .card__text>p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    .top__left>h2 {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .top__left>h2 {
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+  

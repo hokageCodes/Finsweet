@@ -51,6 +51,15 @@
     line-height: 20px;
     color: #232536;
 }
+.first>ul,
+.second>ul,
+.third>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
 .third {
     font-weight: 500;
     font-size: 14px;
@@ -67,7 +76,7 @@
 .middleFooter {
     display: flex;
     align-items: flex-end;
-    gap: 850px;
+    gap: 820px;
     margin-left: 150px;
     margin-bottom: 50px;
 }

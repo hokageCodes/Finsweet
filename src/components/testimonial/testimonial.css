@@ -67,3 +67,110 @@
         margin-top: -150px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .testimonial__section {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        margin-top: 48px;
+    }
+
+    .testimonial__left {
+        margin-left: 0;
+        text-align: center;
+        order: 2;
+    }
+
+    .testimonial__right {
+        order: 1;
+    }
+
+    .testimonial__left > h2 {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        margin: 0 auto 8px auto;
+    }
+
+    .testimonial__left > h4 {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .testimonial__left > p {
+        max-width: 90%;
+        margin: 0 auto 16px auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .testimonial__left-avatar {
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .testimonial__left-avatar > img {
+        margin-bottom: 0;
+    }
+
+    .testimonial__left > .review {
+        text-align: center;
+    }
+
+    .blue__box {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .testimonial__left {
+        margin-top: 55px;
+    }
+    .testimonial__left > h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .testimonial__left > h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .testimonial__left > p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .blue__box {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .testimonial__left > h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .blue__box {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .testimonial__left > h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .testimonial__left > h4 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .testimonial__left > p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}

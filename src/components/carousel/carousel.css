@@ -57,9 +57,9 @@
 .card-carousel__dots {
     display: flex;
     justify-content: center;
-  }
-  
-  .card-carousel__dot {
+}
+
+.card-carousel__dot {
     display: block;
     width: 10px;
     height: 10px;
@@ -67,10 +67,33 @@
     border-radius: 50%;
     background-color: #BFBFBF;
     cursor: pointer;
-  }
-  
-  .card-carousel__dot.active {
-    background-color: #232536;
-  }
-  
+}
 
+.card-carousel__dot.active {
+    background-color: #232536;
+}
+
+
+@media screen and (max-width: 415px) {
+    .card-carousel__content {
+        margin-left: 65px;
+    }
+    .card-carousel__title {
+        font-size: 20px;
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+
+}
+
+@media screen and (max-width: 376px) {
+    .card-carousel__content {
+        margin-left: 90px;
+    }
+    .card-carousel__title {
+        font-size: 18px;
+        max-width: 320px;
+    }
+}

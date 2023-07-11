@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ServicesPage from './pages/ServicesPage'
 import CompanyPage from './pages/CompanyPage'
 import Navbar from './components/navbar/Navbar'
-import FooterTop from './components/footer/FooterTop'
+// import FooterTop from './components/footer/FooterTop'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path='/services' element={<ServicesPage />} />
           <Route path='/company' element={<CompanyPage />} />
         </Routes>
-        <FooterTop />
+        {/* <FooterTop /> */}
       </Router>
       </>
     )

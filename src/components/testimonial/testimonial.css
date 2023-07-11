@@ -56,3 +56,14 @@
     height: 16px;
     background: #666DFF;
 }
+
+
+@media screen and (max-width: 768px) {
+    .testimonial__section {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial__right {
+        margin-top: -150px;
+    }
+}

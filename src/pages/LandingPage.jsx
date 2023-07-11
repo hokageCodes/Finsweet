@@ -1,4 +1,3 @@
-import Navbar from "../components/navbar/Navbar"
 import Hero from "../components/hero/Hero"
 import About from "../components/about/About"
 import Expertise from "../components/expertise/Expertise"
@@ -7,12 +6,10 @@ import Process from "../components/process/Process"
 import Testimonial from "../components/testimonial/Testimonial"
 import Blog from "../components/blog&news/Blog"
 import Newsletter from "../components/newsletter/Newsletter"
-import FooterTop from "../components/footer/FooterTop"
 
 function LandingPage() {
     return (
         <div>
-            <Navbar />
             <Hero />
             <About />
             <Expertise />
@@ -21,7 +18,6 @@ function LandingPage() {
             <Testimonial />
             <Blog />
             <Newsletter />
-            <FooterTop />
         </div>
     )
 }

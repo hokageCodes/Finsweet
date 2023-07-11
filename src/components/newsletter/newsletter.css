@@ -46,3 +46,90 @@ input::placeholder {
 .newsletter__section>img {
     height: 333px;
 }
+
+@media screen and (max-width: 768px) {
+    .newsletter__section {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 48px;
+      margin: 48px auto;
+      width: 90%;
+      height: auto;
+      background: #666DFF;
+    }
+  
+    .newsletter__left > h4,
+    .newsletter__left > h2 {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .newsletter__right {
+      text-align: center;
+    }
+  
+    input {
+      width: 100%;
+    }
+    .newsletter__vertical {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    .newsletter__left > h2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    input {
+    margin-bottom: 50px;
+      height: 56px;
+      width: 250px;
+    }
+    .newsletter__left {
+        padding-top: 70px;
+    }
+  
+    input::placeholder {
+      font-size: 14px;
+      line-height: 20px;
+      text-indent: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 413px) {
+    .newsletter__left > h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    input {
+      height: 48px;
+    }
+  
+    input::placeholder {
+      font-size: 12px;
+      line-height: 16px;
+      text-indent: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .newsletter__left > h2 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    input {
+      height: 40px;
+    }
+  
+    input::placeholder {
+      font-size: 10px;
+      line-height: 14px;
+      text-indent: 12px;
+    }
+  }
+  

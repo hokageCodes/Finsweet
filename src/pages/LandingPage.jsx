@@ -5,7 +5,7 @@ import Services from "../components/services/Services"
 import Process from "../components/process/Process"
 import Testimonial from "../components/testimonial/Testimonial"
 import Blog from "../components/blog&news/Blog"
-// import Newsletter from "../components/newsletter/Newsletter"
+import Newsletter from "../components/newsletter/Newsletter"
 
 function LandingPage() {
     return (
@@ -17,7 +17,7 @@ function LandingPage() {
             <Process />
             <Testimonial />
             <Blog />
-            {/* <Newsletter /> */}
+            <Newsletter />
         </div>
     )
 }

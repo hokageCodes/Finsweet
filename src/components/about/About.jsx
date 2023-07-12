@@ -23,8 +23,7 @@ function About() {
                 <img src={Middle1} alt='1' />
                 <img src={Middle2} alt='2' />
                 <div className="third__image">
-                    <img src={Middle3} alt='' />
-                    <img className='vertical' src={Vertical} alt='' />
+                    <img className='middle' src={Middle3} alt='' />
                 </div>
             </div>
             <div className="about__bottom">

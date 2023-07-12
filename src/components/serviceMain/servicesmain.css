@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .top > h4 {
     margin-bottom: 10px;
     font-weight: 700;
@@ -11,6 +12,7 @@
     line-height: 20px;
     color: #000000;
 }
+
 .top > h3 {
     margin-bottom: 20px;
     max-width: 600px;
@@ -18,6 +20,7 @@
     font-size: 32px;
     color: #232536;
 }
+
 .top > p {
     max-width: 620px;
     font-weight: 400;
@@ -26,54 +29,97 @@
     color: #232536;
     opacity: 0.87;
 }
-.perservice__img>img {
+
+.perservice__img > img {
     width: 516px;
     height: 539px;
 }
 
 @media screen and (max-width: 768px) {
     .servicesmain__container {
-      flex-direction: column;
-      gap: 48px;
-      margin: 48px auto;
-      width: 90%;
+        flex-direction: column;
+        gap: 48px;
+        margin: 48px auto;
+        width: 90%;
     }
-  
+
     .perservice {
-      flex-direction: column;
-      align-items: center;
-      gap: 32px;
-      text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        text-align: center;
     }
-  
+    .per2 {
+      flex-direction: column-reverse;
+    }
     .perservice__img > img {
-      max-width: 100%;
-      height: auto;
+        max-width: 100%;
+        height: auto;
     }
-  }
-  
-  @media screen and (max-width: 415px) {
+}
+
+@media screen and (max-width: 415px) {
     .servicesmain__container {
         margin-top: 100px;
     }
+
     .top > h4 {
-      font-size: 16px;
-      line-height: 20px;
+        font-size: 16px;
+        line-height: 20px;
     }
-  
+
     .top > h3 {
-      font-size: 22px;
-      line-height: 28px;
+        font-size: 22px;
+        line-height: 28px;
     }
-    
+
     .top > p {
         max-width: 650px;
-      font-size: 14px;
-      line-height: 20px;
+        font-size: 14px;
+        line-height: 20px;
     }
-  
+    .per2, 
+    .per3, 
+    .per4, 
+    .per5 {
+      margin-top: 100px;
+    }
+    .per4 {
+      flex-direction: column-reverse;
+    }
+
     .perservice__img > img {
-      width: 100%;
+        width: 100%;
     }
-  }
-  
+}
+
+@media screen and (max-width: 413px) {
+    .perservice {
+        margin: 10px;
+    }
+    .per2,
+    .per3, 
+    .per4, 
+    .per5 {
+      margin-top: 100px;
+    }
+    .per4 {
+      flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .perservice {
+        margin: 5px;
+    }
+    .per2,
+    .per3, 
+    .per4, 
+    .per5 {
+      margin-top: 100px;
+    }
+    .per4 {
+      flex-direction: column-reverse;
+    }
+}

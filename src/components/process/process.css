@@ -152,6 +152,9 @@
 }
 
 @media screen and (max-width: 375px) {
+  .process__container {
+    margin-top: -50px;
+  }
   .top__left > h2 {
     font-size: 32px;
     line-height: 42px;

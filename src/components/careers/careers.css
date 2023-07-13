@@ -1,0 +1,83 @@
+.careers__container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.careers__container > h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.87;
+    margin-bottom: 30px;
+}
+.careers__container > h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #232536;
+    max-width: 600px;
+    text-align: center;
+}
+.careers__container > p {
+    margin-top: 24px;
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5D5F6D;
+    text-align: center;
+}
+.careers__container > img {
+    width: 700px;
+}
+.second__heading {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+span {
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+
+.career__listing {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 1280px;
+    height: 949px;
+    background: #ECF8F9;
+}
+.listing {
+    width: 354px;
+    height: 243px; 
+    background: #FFF;
+}
+.listing > h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.listing__location, .listing__price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6000000238418579;
+}
+.careers__listing__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.arrow {
+    color: #000;
+}

@@ -1,16 +1,16 @@
-.our__vision__container {
+.our__team__container {
     margin-left: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.vision__top {
-    margin-left: -470px;
+.team__top {
+    margin-left: -780px;
     margin-bottom: 50px;
     margin-top: 50px;
     max-width: 800px;
 }
-.vision__top > h4 {
+.team__top > h4 {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -20,13 +20,14 @@
     opacity: 0.87;
     margin-bottom: 30px;
 }
-.vision__top > h2 {
+.team__top > h2 {
     font-weight: 600;
     font-size: 48px;
     line-height: 58px;
     color: #232536;
+    max-width: 450px;
 }
-.vision__top > p {
+.team__top > p {
     margin-top: 24px;
     max-width: 500px;
     font-weight: 400;
@@ -35,6 +36,7 @@
     color: #5D5F6D;
 }
 
-.vision__bottom > img {
-    width: 94%;
+.team__img__top {
+    display: flex;
+    flex-direction: column;
 }

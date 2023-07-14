@@ -1,6 +1,7 @@
 import CareerImg from '../../assets/career.png'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import './careers.css'
+import WorkCulture from '../workCulture/WorkCulture'
 
 export default function Careers() {
     return (
@@ -95,6 +96,7 @@ export default function Careers() {
                     </div>
                 </div>
             </div>
+            <WorkCulture />
         </section>
     )
 }

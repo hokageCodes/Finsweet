@@ -125,10 +125,35 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .topmost {
-        
+    .main__company__hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-    .pink__box {
-        display: none;
+    .story__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .logos {
+        display: flex;
+        flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 415px) {
+    .main__company__hero > h2 {
+        font-size: 20px;
+    }
+}
+/* @media only screen and (max-width: 413px) {
+    body {
+        background: blue;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    body {
+        background: green;
+    }
+} */

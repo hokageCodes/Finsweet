@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .careers__container > h4 {
@@ -15,14 +16,15 @@
     opacity: 0.87;
     margin-bottom: 30px;
 }
+
 .careers__container > h2 {
     font-weight: 600;
     font-size: 48px;
     line-height: 58px;
     color: #232536;
     max-width: 600px;
-    text-align: center;
 }
+
 .careers__container > p {
     margin-top: 24px;
     max-width: 500px;
@@ -30,17 +32,21 @@
     font-size: 16px;
     line-height: 24px;
     color: #5D5F6D;
-    text-align: center;
 }
+
 .careers__container > img {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
+
 .second__heading {
     margin-top: 50px;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
 }
+
 span {
     margin-top: -20px;
     margin-bottom: 100px;
@@ -49,35 +55,47 @@ span {
 .career__listing {
     padding-top: 78px;
     padding-bottom: 78px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 32px;
-    width: 1280px;
-    height: 949px;
+    max-width: 1280px;
+    width: 100%;
     background: #ECF8F9;
 }
+
 .listing {
-    width: 354px;
-    height: 243px; 
+    height: 100%;
     background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
 }
+
 .listing > h4 {
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
-    margin-top: 48px;
+    margin-top: 0;
     margin-bottom: 10px;
 }
-.listing__location, .listing__price {
+
+.listing__location,
+.listing__price {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    opacity: 0.6000000238418579;
+    opacity: 0.6;
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: center;
 }
+
 .listing__price {
-    margin-bottom: 52px;
+    margin-bottom: 0;
 }
+
 .careers__listing__link {
     display: flex;
     align-items: center;
@@ -85,12 +103,100 @@ span {
     height: 50px;
     width: 150px;
 }
-.listing>h4,
-.listing>p,
+
+.listing > h4,
+.listing > p,
 .careers__listing__link {
-    margin-left: 48px;
+    margin-left: 0;
+    text-align: center;
 }
 
 .arrow {
     color: #000;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .careers__container > h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .careers__container > p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .careers__container > img {
+        max-width: 100%;
+    }
+
+    .career__listing {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .careers__container > h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .careers__container > p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .careers__container > img {
+        max-width: 100%;
+    }
+
+    .career__listing {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .careers__container > h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .careers__container > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .careers__container > img {
+        max-width: 100%;
+    }
+
+    .career__listing {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 16px;
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 37px) {
+    .careers__container > h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .careers__container > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .careers__container > img {
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .career__listing {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 12px;
+        padding: 12px;
+    }
 }

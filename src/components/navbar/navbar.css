@@ -52,6 +52,11 @@
   color: #Ffff;
 }
 
+.nav__links > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .nav__container {
     display: flex;

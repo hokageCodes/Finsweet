@@ -47,8 +47,11 @@ span {
 }
 
 .career__listing {
+    padding-top: 78px;
+    padding-bottom: 78px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
     width: 1280px;
     height: 949px;
@@ -63,6 +66,8 @@ span {
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
+    margin-top: 48px;
+    margin-bottom: 10px;
 }
 .listing__location, .listing__price {
     font-size: 16px;
@@ -70,12 +75,20 @@ span {
     line-height: 24px;
     opacity: 0.6000000238418579;
 }
+.listing__price {
+    margin-bottom: 52px;
+}
 .careers__listing__link {
     display: flex;
     align-items: center;
     gap: 10px;
     height: 50px;
     width: 150px;
+}
+.listing>h4,
+.listing>p,
+.careers__listing__link {
+    margin-left: 48px;
 }
 
 .arrow {

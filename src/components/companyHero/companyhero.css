@@ -123,3 +123,12 @@
     justify-content: center;
     margin-top: 100px;
 }
+
+@media only screen and (max-width: 768px) {
+    .topmost {
+        
+    }
+    .pink__box {
+        display: none;
+    }
+}

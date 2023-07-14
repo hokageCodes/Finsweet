@@ -18,21 +18,81 @@ export default function Careers() {
                     <p className='listing__location'>Bengaluru · Full Time </p>
                     <p className='listing__price'>$10K - $18K · No equity</p>
                     <div className="careers__listing__link">
-                    <a href="/">Apply Now</a>
-                    <HiOutlineArrowNarrowRight className='arrow' />
-                </div>
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
                 </div>
                 <div className="listing">
                     <h4>Testing Engineeer</h4>
-                    <p>Remote · Full Time </p>
-                    <p>$08K - $10K · No equity</p>
-                    <a href="/">Apply Now</a>
+                    <p className='listing__location'>Remote · Full Time </p>
+                    <p className='listing__price'>$08K - $10K · No equity</p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
                 </div>
                 <div className="listing">
                     <h4>Hr Manager</h4>
-                    <p>Mumbai . Fultime</p>
-                    <p>$08K - $10K · 4 to 5 Yrs Exp</p>
-                    <a href="/">Apply Now</a>
+                    <p className='listing__location'>Mumbai . Fultime</p>
+                    <p className='listing__price'>$08K - $10K · 4 to 5 Yrs Exp</p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
+                </div>
+                <div className="listing">
+                    <h4>Product Designer</h4>
+                    <p className='listing__location'>Mumbai . Fultime</p>
+                    <p className='listing__price'>$08K - $10K · 4 to 5 Yrs Exp</p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
+                </div>
+                <div className="listing">
+                    <h4>Wordpress Developer</h4>
+                    <p className='listing__location'>Mumbai . Fultime</p>
+                    <p className='listing__price'>$08K - $10K · 4 to 5 Yrs Exp</p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
+                </div>
+                <div className="listing">
+                    <h4>Jr. QA Tester</h4>
+                    <p className='listing__location'>California, USA . Full Time</p>
+                    <p className='listing__price'>$14K - $23K · No equity</p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
+                </div>
+                <div className="listing">
+                    <h4>Sr. UX Designer</h4>
+                    <p className='listing__location'>California, USA . Full Time</p>
+                    <p className='listing__price'>$14K - $23K · No equity</p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
+                </div>
+                <div className="listing">
+                    <h4>Social Media Manager</h4>
+                    <p className='listing__location'>Kolkata, India .  Fulltime</p>
+                    <p className='listing__price'>$5K - $6K ·  Fresher  </p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
+                </div>
+                <div className="listing">
+                    <h4>Golang Developer</h4>
+                    <p className='listing__location'>Mumbai . Fultime</p>
+                    <p className='listing__price'>$08K - $10K · 4 to 5 Yrs Exp</p>
+                    <div className="careers__listing__link">
+                        <a href="/">Apply Now</a>
+                        <HiOutlineArrowNarrowRight className='arrow' />
+                    </div>
                 </div>
             </div>
         </section>
